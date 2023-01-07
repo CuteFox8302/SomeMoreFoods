@@ -42,10 +42,30 @@ public class ModFoodComponents {
             .hunger(4)
             .saturationModifier(0.4f)
             .build();
+    public static final FoodComponent BLUEBERRY_WAFFLE_WITH_SYRUP = new FoodComponent.Builder()
+            .hunger(5)
+            .saturationModifier(0.6f)
+            .build();
+    public static final FoodComponent FROZEN_BLUEBERRY_WAFFLE_WITH_SYRUP = new FoodComponent.Builder()
+            .hunger(4)
+            .saturationModifier(0.5f)
+            .build();
     //Chocolate Chip Waffle
     public static final FoodComponent CHOCOLATE_CHIP_WAFFLE = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(0.8f)
+            .build();
+    public static final FoodComponent FROZEN_CHOCOLATE_CHIP_WAFFLE = new FoodComponent.Builder()
+            .hunger(6)
+            .saturationModifier(0.7f)
+            .build();
+    public static final FoodComponent CHOCOLATE_CHIP_WAFFLE_WITH_SYRUP = new FoodComponent.Builder()
+            .hunger(8)
+            .saturationModifier(0.9f)
+            .build();
+    public static final FoodComponent FROZEN_CHOCOLATE_CHIP_WAFFLE_WITH_SYRUP = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.9f)
             .build();
     //Waffle Ingredients
     public static final FoodComponent BLUEBERRY = new FoodComponent.Builder()
