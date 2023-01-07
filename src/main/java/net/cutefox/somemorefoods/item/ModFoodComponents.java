@@ -23,6 +23,13 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 5), 0.9F)
             .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 200, 5), 0.9F)
             .build();
+    public static final FoodComponent FROZEN_WAFFLE_WITH_SYRUP = new FoodComponent.Builder()
+            .hunger(4)
+            .saturationModifier(0.5f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 5), 0.9F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 200, 5), 0.9F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 60, 1), 0.5F)
+            .build();
     //Blueberry Waffle
     public static final FoodComponent BLUEBERRY_WAFFLE = new FoodComponent.Builder()
             .hunger(7)
