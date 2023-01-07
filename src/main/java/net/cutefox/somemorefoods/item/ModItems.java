@@ -11,6 +11,9 @@ public class ModItems {
     public static final Item SAP = registerItem("sap",
             new Item(new FabricItemSettings().food(ModFoodComponents.SAP).group(ModItemGroup.SOME_MORE_FOODS)));
 
+    public static final Item MAPLE_SYRUP = registerItem("maple_syrup",
+            new Item(new FabricItemSettings().food(ModFoodComponents.MAPLE_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(SomeMoreFoods.MOD_ID, name), item);
     }
