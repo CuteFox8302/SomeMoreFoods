@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "somemorefoods",
+  "version": "${version}",
+
+  "name": "Some More Foods",
+  "description": "Adds some more foods that Mojang would not add.",
+  "authors": [
+    "_CuteFox_"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cutefox.somemorefoods.SomeMoreFoods"
+    ],
+    "client": [
+      "net.cutefox.somemorefoods.SomeMoreFoodsClient"
+    ]
+  },
+  "mixins": [
+    "somemorefoods.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
