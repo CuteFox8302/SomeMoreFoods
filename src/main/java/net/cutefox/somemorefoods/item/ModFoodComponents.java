@@ -20,8 +20,8 @@ public class ModFoodComponents {
     public static final FoodComponent WAFFLE = new FoodComponent.Builder()
             .hunger(4)
             .saturationModifier(0.5f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20, 1), 0.1F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20, 1), 0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 60, 1), 0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 60, 1), 0.1F)
             .build();
     public static final FoodComponent FROZEN_WAFFLE = new FoodComponent.Builder()
             .hunger(3)
@@ -45,9 +45,9 @@ public class ModFoodComponents {
     public static final FoodComponent BLUEBERRY_WAFFLE = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(1.1f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20, 1), 0.1F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 20, 1), 0.1F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 40, 2), 0.5F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 80, 2), 0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 80, 2), 0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 80, 2), 0.5F)
             .build();
     public static final FoodComponent FROZEN_BLUEBERRY_WAFFLE = new FoodComponent.Builder()
             .hunger(4)
@@ -98,6 +98,6 @@ public class ModFoodComponents {
     public static final FoodComponent CHOCOLATE_CHIP = new FoodComponent.Builder()
             .hunger(3)
             .saturationModifier(0.4f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 5), 1.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 5), 0.9F)
             .build();
 }
