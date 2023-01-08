@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup SOME_MORE_FOODS = FabricItemGroupBuilder.build(
-            new Identifier(SomeMoreFoods.MOD_ID, "some_more_foods"), () -> new ItemStack(ModItems.SAP));
+            new Identifier(SomeMoreFoods.MOD_ID, "some_more_foods"), () -> new ItemStack(ModItems.WAFFLE));
 }

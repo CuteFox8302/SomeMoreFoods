@@ -4,5 +4,12 @@
   "item.somemorefoods.sap": "Sap",
   "item.somemorefoods.maple_syrup": "Maple Syrup",
   "item.somemorefoods.blueberry": "Blueberry",
-  "item.somemorefoods.chocolate_chip": "Chocolate Chip"
+  "item.somemorefoods.chocolate_chip": "Chocolate Chip",
+
+  "item.somemorefoods.waffle_waffle": "Waffle Waffle",
+
+  "item.somemorefoods.waffle": "Waffle",
+  "item.somemorefoods.frozen_waffle": "Frozen Waffle",
+  "item.somemorefoods.waffle_with_syrup": "Waffle with Maple Syrup",
+  "item.somemorefoods.frozen_waffle_with_syrup": "Frozen Waffle with Maple Syrup"
 }
