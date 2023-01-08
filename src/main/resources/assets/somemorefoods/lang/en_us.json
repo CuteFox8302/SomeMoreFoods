@@ -11,5 +11,10 @@
   "item.somemorefoods.waffle": "Waffle",
   "item.somemorefoods.frozen_waffle": "Frozen Waffle",
   "item.somemorefoods.waffle_with_syrup": "Waffle with Maple Syrup",
-  "item.somemorefoods.frozen_waffle_with_syrup": "Frozen Waffle with Maple Syrup"
+  "item.somemorefoods.frozen_waffle_with_syrup": "Frozen Waffle with Maple Syrup",
+
+  "item.somemorefoods.blueberry_waffle": "Blueberry Waffle",
+  "item.somemorefoods.frozen_blueberry_waffle": "Frozen Blueberry Waffle",
+  "item.somemorefoods.blueberry_waffle_with_syrup": "Blueberry Waffle with Syrup",
+  "item.somemorefoods.frozen_blueberry_waffle_with_syrup": "Frozen Blueberry Waffle with Syrup"
 }

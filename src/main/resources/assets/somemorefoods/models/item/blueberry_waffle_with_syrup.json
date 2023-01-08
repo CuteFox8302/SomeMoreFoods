@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "somemorefoods:item/blueberry_waffle_with_syrup"
+  }
+}

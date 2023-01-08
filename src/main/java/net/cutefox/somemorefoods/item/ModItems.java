@@ -32,6 +32,15 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.WAFFLE_WITH_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
     public static final Item FROZEN_WAFFLE_WITH_SYRUP = registerItem("frozen_waffle_with_syrup",
             new Item(new FabricItemSettings().food(ModFoodComponents.FROZEN_WAFFLE_WITH_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
+    //Blueberry Waffle
+    public static final Item BLUEBERRY_WAFFLE = registerItem("blueberry_waffle",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BLUEBERRY_WAFFLE).group(ModItemGroup.SOME_MORE_FOODS)));
+    public static final Item FROZEN_BLUEBERRY_WAFFLE = registerItem("frozen_blueberry_waffle",
+            new Item(new FabricItemSettings().food(ModFoodComponents.FROZEN_BLUEBERRY_WAFFLE).group(ModItemGroup.SOME_MORE_FOODS)));
+    public static final Item BLUEBERRY_WAFFLE_WITH_SYRUP = registerItem("blueberry_waffle_with_syrup",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BLUEBERRY_WAFFLE_WITH_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
+    public static final Item FROZEN_BLUEBERRY_WAFFLE_WITH_SYRUP = registerItem("frozen_blueberry_waffle_with_syrup",
+            new Item(new FabricItemSettings().food(ModFoodComponents.FROZEN_BLUEBERRY_WAFFLE_WITH_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(SomeMoreFoods.MOD_ID, name), item);
