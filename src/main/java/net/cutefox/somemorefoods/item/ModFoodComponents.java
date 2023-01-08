@@ -5,6 +5,15 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
+    //Secret Waffle
+    public static final FoodComponent WAFFLE_WAFFLE = new FoodComponent.Builder()
+            .hunger(15)
+            .saturationModifier(1.5f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 10), 50F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 600, 10), 50F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 10), 50F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 600, 10), 50F)
+            .build();
     //PLain Waffle
     public static final FoodComponent WAFFLE = new FoodComponent.Builder()
             .hunger(4)
