@@ -18,6 +18,9 @@ public class ModItems {
     public static final Item BLUEBERRY = registerItem("blueberry",
             new Item(new FabricItemSettings().food(ModFoodComponents.BLUEBERRY).group(ModItemGroup.SOME_MORE_FOODS)));
 
+    public static final Item CHOCOLATE_CHIP = registerItem("chocolate_chip",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CHOCOLATE_CHIP).group(ModItemGroup.SOME_MORE_FOODS)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(SomeMoreFoods.MOD_ID, name), item);
     }
