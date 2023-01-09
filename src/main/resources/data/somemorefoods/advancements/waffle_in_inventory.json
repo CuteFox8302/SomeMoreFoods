@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "item": "somemorefoods:waffle"
+    },
+    "title": "Muncher",
+    "description": "Have every waffle in your inventory.",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "background": "minecraft:textures/block/cobblestone"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "somemorefoods:waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:blueberry_waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_blueberry_waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:blueberry_waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_blueberry_waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:chocolate_chip_waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_chocolate_chip_waffle"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:chocolate_chip_waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:frozen_chocolate_chip_waffle_with_syrup"
+            ]
+          },
+          {
+            "items": [
+              "somemorefoods:waffle_waffle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
