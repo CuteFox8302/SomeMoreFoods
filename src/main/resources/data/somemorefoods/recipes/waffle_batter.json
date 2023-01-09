@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "%": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "%#%",
+    "#%#",
+    "%#%"
+  ],
+  "result": {
+    "item": "somemorefoods:waffle_batter"
+  }
+}

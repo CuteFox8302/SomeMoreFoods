@@ -93,11 +93,16 @@ public class ModFoodComponents {
     public static final FoodComponent MAPLE_SYRUP = new FoodComponent.Builder()
             .hunger(2)
             .saturationModifier(0.4f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 5), 1.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 5), 1.0F)
             .build();
     public static final FoodComponent CHOCOLATE_CHIP = new FoodComponent.Builder()
             .hunger(3)
             .saturationModifier(0.4f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 5), 0.9F)
+            .build();
+    public static final FoodComponent WAFFLE_BATTER = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.2f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 1000, 10), 1.0F)
             .build();
 }

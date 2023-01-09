@@ -9,6 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     //Mod Ingredients
+    public static final Item WAFFLE_BATTER = registerItem("waffle_batter",
+            new Item(new FabricItemSettings().food(ModFoodComponents.WAFFLE_BATTER).group(ModItemGroup.SOME_MORE_FOODS)));
+
     public static final Item MAPLE_SYRUP = registerItem("maple_syrup",
             new MapleSyrupItem(new FabricItemSettings().food(ModFoodComponents.MAPLE_SYRUP).group(ModItemGroup.SOME_MORE_FOODS)));
 
