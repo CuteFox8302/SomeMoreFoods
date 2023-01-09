@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 90,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "somemorefoods:frozen_blueberry_waffle"
+  },
+  "result": "somemorefoods:blueberry_waffle"
+}

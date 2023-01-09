@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 90,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "somemorefoods:frozen_waffle_with_syrup"
+  },
+  "result": "somemorefoods:waffle_with_syrup"
+}
