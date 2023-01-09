@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 90,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "somemorefoods:waffle_batter"
+  },
+  "result": "somemorefoods:waffle"
+}

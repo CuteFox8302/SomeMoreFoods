@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "somemorefoods:blueberry"
+    },
+    "%": {
+      "item": "somemorefoods:waffle"
+    }
+  },
+  "pattern": [
+    "#%#"
+  ],
+  "result": {
+    "item": "somemorefoods:blueberry_waffle"
+  }
+}
