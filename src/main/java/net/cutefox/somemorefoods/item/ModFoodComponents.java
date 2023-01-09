@@ -105,4 +105,10 @@ public class ModFoodComponents {
             .saturationModifier(0.2f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 1000, 10), 1.0F)
             .build();
+    public static final FoodComponent MAPLE_SUGAR = new FoodComponent.Builder()
+            .hunger(5)
+            .saturationModifier(0.5f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 800, 12), 1.0F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 800, 12), 1.0F)
+            .build();
 }
