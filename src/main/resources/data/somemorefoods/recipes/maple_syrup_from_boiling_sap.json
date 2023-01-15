@@ -1,0 +1,11 @@
+{
+  "type": "somemorefoods:boiling",
+  "ingredients": [
+    {
+      "item": "somemorefoods:sap"
+    }
+  ],
+  "output": {
+    "item": "somemorefoods:maple_syrup"
+  }
+}
